@@ -3,29 +3,28 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ListaDeExercicios2;
-import java.util.Scanner;
 /**
  *
  * @author André
  */
+/*Implementação da classe Arrays
+Criar uma classe Arrays que contém um array de inteiros
+Criar um método “soma” que percorra e retorne a soma de todos os elementos do vetor Criar um método main que:
+Crie uma instância da classe Arrays
+Leia inteiros do console e armazene os valores no vetor da classe Arrays.
+Imprima a soma dos números através do método soma
+*/
 public class Exercicio2 {
     public static void main(String[] args) {
-        Scanner ler = new Scanner(System.in);
         
-        int n = 10; //tamanho do vetor
-        int v[] = new int[n]; //declaraçao do vetor
-        int i; //indice ou posiçao
+         int[] vetor = {1,2,3,4,5,6,7,8,9}; // Vetor já com valores preenchidos.
+            int soma = 0; // inicia variavel soma com 0.
         
 //Entrada de dados
-        for (i=0; i<n; i++) {
-            System.out.println("Informe %2do. valor de %d: ". (i+1). n);
-            v[i] = ler.nextInt();
-             
+        for(int i = 0; i < vetor.length; i++){
+                   soma = soma +  vetor[i]; // soma a variavel soma com cada valor dos indices do vetor. 
+            }
+            System.out.println("Total: "+soma); // Total: 15     
         }
-//Somar todos os valores, definir o maior e o menor valor
-        int soma = 0;
-        int
-    }
-    
+
 }
